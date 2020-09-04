@@ -1,5 +1,5 @@
 ﻿<Page
-    x:Class="SQLiteDEMO.MainPage"
+    x:Class="SQLiteDEMO.TheSearch"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:SQLiteDEMO"
@@ -8,21 +8,15 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-
-
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Margin="0,0,0,10">
-        <Button x:ConnectionId='2' x:Name="Search" 
-                 Content="Add Contact" 
-                 Margin="513,373,0,0" 
-                                   Width="370" VerticalAlignment="Top"/>
 
-        <Button x:ConnectionId='3' x:Name="Retrieve" 
+        <Button x:ConnectionId='2' x:Name="Retrieve" 
                 Content="Show  List" 
                 VerticalAlignment="Top" 
-                Margin="513,436,0,0" 
+                Margin="513,384,0,0" 
                                        Width="370"/>
 
-        <TextBlock x:ConnectionId='4' x:Name="textBlock" 
+        <TextBlock x:ConnectionId='3' x:Name="textBlock" 
                    HorizontalAlignment="Left" 
                    TextWrapping="Wrap" 
                    Text="Name" 
@@ -30,14 +24,14 @@
                    Margin="356,226,0,0" 
                    Width="52"/>
 
-        <TextBox x:ConnectionId='5' x:Name="textBox"
+        <TextBox x:ConnectionId='4' x:Name="textBox"
                  HorizontalAlignment="Left" 
                  TextWrapping="Wrap"
                  VerticalAlignment="Top" 
                  Margin="513,220,0,0"
                  Width="370"/>
 
-        <TextBlock x:ConnectionId='6' x:Name="textBlock1"
+        <TextBlock x:ConnectionId='5' x:Name="textBlock1"
                    HorizontalAlignment="Left"
                    TextWrapping="Wrap" 
                    Text="Phone Number" 
@@ -45,7 +39,7 @@
                    Margin="356,314,0,0"
                    Width="118" RenderTransformOrigin="0.95,0.474"/>
 
-        <TextBox x:ConnectionId='7' x:Name="textBox1" 
+        <TextBox x:ConnectionId='6' x:Name="textBox1" 
                  HorizontalAlignment="Left" 
                  TextWrapping="Wrap"                 
                  VerticalAlignment="Top"
@@ -56,10 +50,8 @@
                 <CompositeTransform Rotation="-0.56" ScaleY="-1"/>
             </Border.RenderTransform>
         </Border>
-        <TextBlock HorizontalAlignment="Left" Height="84" Margin="356,32,0,0" Text="Add Contact" TextWrapping="Wrap" VerticalAlignment="Top" Width="494" FontSize="57"/>
-        <TextBlock x:ConnectionId='8'  x:Name="textBlock2" HorizontalAlignment="Left" Margin="374,516,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="629" Height="107"/>
+        <TextBlock HorizontalAlignment="Left" Height="84" Margin="356,32,0,0" Text="Search Contact" TextWrapping="Wrap" VerticalAlignment="Top" Width="494" FontSize="57"/>
+        <TextBlock x:ConnectionId='7'  x:Name="textBlock2" HorizontalAlignment="Left" Margin="374,516,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="629" Height="107"/>
     </Grid>
 </Page>
-
-
 

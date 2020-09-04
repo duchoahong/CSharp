@@ -12,7 +12,6 @@ C:\Users\jngst\source\repos\SQLiteDemo\SQLiteDEMO\bin\x86\Debug\System.Runtime.d
 C:\Users\jngst\source\repos\SQLiteDemo\SQLiteDEMO\bin\x86\Debug\SQLite.Net.Platform.WinRT.dll
 C:\Users\jngst\source\repos\SQLiteDemo\SQLiteDEMO\bin\x86\Debug\SQLite.Net.dll
 C:\Users\jngst\source\repos\SQLiteDemo\SQLiteDEMO\bin\x86\Debug\Microsoft.UI.Xaml.Markup.winmd
-C:\Users\jngst\source\repos\SQLiteDemo\SQLiteDEMO\obj\x86\Debug\SQLiteDEMO.csprojAssemblyReference.cache
 C:\Users\jngst\source\repos\SQLiteDemo\SQLiteDEMO\obj\x86\Debug\App.g.i.cs
 C:\Users\jngst\source\repos\SQLiteDemo\SQLiteDEMO\obj\x86\Debug\App.g.cs
 C:\Users\jngst\source\repos\SQLiteDemo\SQLiteDEMO\obj\x86\Debug\MainPage.g.i.cs
@@ -45,3 +44,9 @@ C:\Users\jngst\source\repos\SQLiteDemo\SQLiteDEMO\obj\x86\Debug\qualifiers.txt.i
 C:\Users\jngst\source\repos\SQLiteDemo\SQLiteDEMO\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\jngst\source\repos\SQLiteDemo\SQLiteDEMO\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\jngst\source\repos\SQLiteDemo\SQLiteDEMO\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885058160000000.json
+C:\Users\jngst\source\repos\SQLiteDemo\SQLiteDEMO\bin\x86\Debug\TheSearch.xbf
+C:\Users\jngst\source\repos\SQLiteDemo\SQLiteDEMO\obj\x86\Debug\SQLiteDEMO.csprojAssemblyReference.cache
+C:\Users\jngst\source\repos\SQLiteDemo\SQLiteDEMO\obj\x86\Debug\TheSearch.g.i.cs
+C:\Users\jngst\source\repos\SQLiteDemo\SQLiteDEMO\obj\x86\Debug\TheSearch.g.cs
+C:\Users\jngst\source\repos\SQLiteDemo\SQLiteDEMO\obj\x86\Debug\TheSearch.xaml
+C:\Users\jngst\source\repos\SQLiteDemo\SQLiteDEMO\obj\x86\Debug\TheSearch.xbf

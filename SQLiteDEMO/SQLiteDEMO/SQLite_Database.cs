@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Remoting.Messaging;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -19,17 +20,30 @@ namespace SQLiteDEMO
         conn.Insert(new Customer()
         {
             Name = textBox.Text, 
-            Age = textBoxl.Text
+            Phone_number = textBoxl.Text
         }); 
 
-        var query = conn.Table<Customer>();
-        string id = ""; string name = "";
-        string age = ""; 
+
         
+        var query = conn.Table<Customer>();
+        string id = ""; 
+        string name = "";
+        string Phone_number= "";
+
+        string question = "";
+        string mark = "";
+        
+
+
+
         foreach (var message in query) { 
             id = id + " " + message.Id; 
             name = name + " " + message.Name; 
-            age = age + " " + message.Age; 
+            Phone_number = Phonenumber + " " + message.Phone_number; 
+
+            string question = "" + message.Question;
+            string mark = "" + message.Mark;
+
 
     }
 }
